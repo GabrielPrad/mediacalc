@@ -122,6 +122,17 @@ button:active{
   .vermelho {
     background-color: rgba(255, 0, 0, 0.6);
   }
+
+  @media (max-width: 720px) {
+    #main-container{
+        width: 400px;
+    }
+
+    button{
+        width: 350px;
+        color: #192841;
+    }
+  }
   
 
 
